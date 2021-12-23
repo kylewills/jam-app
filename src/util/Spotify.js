@@ -1,7 +1,7 @@
 // import React from 'react';
 
 const clientId = '8457fb4b1e8c4682bb8416fe40694366';
-const redirectUri = 'http://localhost:3000';
+const redirectUri = 'http://black-and-white-bite.surge.sh';
 
 let userAccessToken;
 
