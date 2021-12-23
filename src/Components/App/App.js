@@ -47,7 +47,7 @@ updatePlaylistName(name){
 
 savePlaylist(){
   // alert('This method is linked to the button correctly')
-  const trackUris = this.state.playlistTracks.map(track => track.url);
+  const trackUris = this.state.playlistTracks.map(track => track.uri);
   Spotify.savePlaylist(this.state.playlistName, trackUris).then(() => {
     this.setState({
       playlistName: 'New Playlist',
